@@ -11,7 +11,7 @@
 def solution(s):
 
     # 문자열로 합체
-    # s.sort()
+    # s.sort() #'str' object has no attribute 'sort'
     return "".join(sorted(s, reverse=True))
     
 # 해설 : 똑같
